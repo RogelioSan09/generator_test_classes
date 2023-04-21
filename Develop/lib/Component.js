@@ -3,7 +3,11 @@ class Component{
         this.children = children 
     }
     render({
-        if()
-        console.log(`Child class must implement render() method.`);
+
+        describe('Test the Component:', () => {
+            test('invalid inputs for thefunction()',  () => {
+                expect( () => { Component.theFunction(0) } ).toThrow(`Child class must implement render() method.`);
+            });
+        }
     })
 }
