@@ -10,4 +10,11 @@ class Component{
             });
         }
     })
+        renderInnerHTML ( {
+            for (var i=0; i < (children.length); i++) {
+
+            }
+
+                })
 }
+ 
